@@ -160,6 +160,11 @@
     filter: sepia(1);
   }
 }
+h1 {
+  margin-left: 10px;
+  text-align: left;
+}
+
 .main-software {
   width: 100%;
   max-width: 1400px;
@@ -260,6 +265,11 @@
     filter: sepia(1);
   }
 }
+h1 {
+  margin-left: 10px;
+  text-align: left;
+}
+
 .main-hardware {
   width: 100%;
   max-width: 1400px;
@@ -360,6 +370,11 @@
     filter: sepia(1);
   }
 }
+h1 {
+  margin-left: 10px;
+  text-align: left;
+}
+
 .main-contacto {
   width: 100%;
   max-width: 1400px;
