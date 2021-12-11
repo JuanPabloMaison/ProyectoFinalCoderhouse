@@ -1,0 +1,53 @@
+@import "./variables";
+@import "./mixins";
+
+.main-contacto {
+  @include mains;
+
+  h2 {
+    margin-left: 20px;
+  }
+
+  .parrafo {
+    padding: 20px;
+  }
+
+  .contenedor-form {
+    margin-top: 50px;
+
+    .input-form {
+      display: flex;
+      margin-top: 20px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .inputs {
+        width: 50%;
+      }
+    }
+  }
+}
+
+/* fin seccion4 */
+@media screen and (max-width: 768px) {
+  .main-contacto {
+    .contenedor-form {
+      margin-top: 50px;
+      width: 100%;
+
+      .input-form {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        .inputs {
+          width: 80%;
+        }
+      }
+    }
+  }
+}

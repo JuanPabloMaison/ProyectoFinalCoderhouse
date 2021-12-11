@@ -1,0 +1,462 @@
+/* IMAGEN LOGO */
+.logo {
+  margin-left: 0.9rem;
+}
+
+/* fin header */
+/* inicio index */
+.main-index {
+  width: 100%;
+  max-width: 1400px;
+  margin: 100px auto;
+  /* H2 INDEX */
+  /* PARRAFO INDEX */
+  /* fin infex */
+}
+.main-index .title {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.main-index .subtitle {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.main-index .parragraph {
+  text-align: left;
+  margin: 1%;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+.main-index .carrusel {
+  margin: 100px auto;
+  max-width: 1400px;
+}
+.main-index .carrusel .carrusel-div .imagen1 {
+  margin: auto;
+  width: 700px;
+  height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-index .title {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  .main-index .carrusel .carrusel-div .imagen1 {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-index .title {
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+}
+.main-accesorios {
+  width: 100%;
+  max-width: 1400px;
+  margin: 100px auto;
+}
+.main-accesorios .lista-accesorios {
+  text-decoration: underline;
+  color: black;
+  margin-top: 90px;
+  list-style: none;
+}
+.main-accesorios .lista-accesorios .sub-lista1 {
+  text-decoration: underline;
+  color: black;
+  margin-top: 90px;
+  list-style: none;
+}
+.main-accesorios .card-accesorios {
+  background: none;
+  border: 2px solid black;
+  border-radius: 0px 0px 10px 10px;
+}
+.main-accesorios .card-accesorios:hover {
+  transform: scale(1.02);
+  transition: 0.7s;
+  filter: sepia(1);
+  cursor: pointer;
+}
+
+/* fin seccion 1 */
+@media screen and (max-width: 768px) {
+  .main-accesorios .lista-accesorios {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-accesorios .lista-accesorios .sub-lista1 {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-accesorios .image-container-accesorios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    padding: 20px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  .main-accesorios .image-container-accesorios .image1 {
+    border-style: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0.5rem 2.5rem goldenrod;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-accesorios .image1:hover {
+    transform: scale(1.07);
+    transition: 0.7s;
+    filter: sepia(1);
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-accesorios .lista-accesorios {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-accesorios .lista-accesorios .sub-lista1 {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-accesorios .image-container-accesorios {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    padding: 20px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  .main-accesorios .image-container-accesorios .image1 {
+    border-style: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0.5rem 2.5rem goldenrod;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-accesorios .image1:hover {
+    transform: scale(1.07);
+    transition: 0.7s;
+    filter: sepia(1);
+  }
+}
+.main-software {
+  width: 100%;
+  max-width: 1400px;
+  margin: 100px auto;
+}
+.main-software .lista-software {
+  text-decoration: underline;
+  color: black;
+  margin-top: 90px;
+  list-style: none;
+}
+.main-software .lista-software .sub-lista2 {
+  text-decoration: underline;
+  color: black;
+  margin-top: 90px;
+  list-style: none;
+}
+.main-software .card-software {
+  background: none;
+  border: 2px solid black;
+  border-radius: 0px 0px 10px 10px;
+}
+.main-software .card-software:hover {
+  transform: scale(1.02);
+  transition: 0.7s;
+  filter: sepia(1);
+  cursor: pointer;
+}
+
+/* fin seccion 2 */
+@media screen and (max-width: 768px) {
+  .main-software .lista-software {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-software .lista-software .sub-lista2 {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-software .image-container-software {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    padding: 20px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  .main-software .image-container-software .image2 {
+    border-style: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0.5rem 2.5rem #e0dedd;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-software .image2:hover {
+    transform: scale(1.07);
+    transition: 0.7s;
+    filter: sepia(1);
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-software .lista-software {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-software .lista-software .sub-lista2 {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-software .image-container-software {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    padding: 20px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  .main-software .image-container-software .image2 {
+    border-style: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0.5rem 2.5rem #e0dedd;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-software .image2:hover {
+    transform: scale(1.07);
+    transition: 0.7s;
+    filter: sepia(1);
+  }
+}
+.main-hardware {
+  width: 100%;
+  max-width: 1400px;
+  margin: 100px auto;
+}
+.main-hardware .lista-hardware {
+  text-decoration: underline;
+  color: black;
+  margin-top: 90px;
+  list-style: none;
+}
+.main-hardware .lista-hardware .sub-lista3 {
+  text-decoration: underline;
+  color: black;
+  margin-top: 90px;
+  list-style: none;
+}
+.main-hardware .card-hardware {
+  background: none;
+  border: 2px solid black;
+  border-radius: 0px 0px 10px 10px;
+}
+.main-hardware .card-hardware:hover {
+  transform: scale(1.02);
+  transition: 0.7s;
+  filter: sepia(1);
+  cursor: pointer;
+}
+
+/* fin seccion 2 */
+@media screen and (max-width: 768px) {
+  .main-hardware .lista-software {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-hardware .lista-software .sub-lista3 {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-hardware .image-container-hardware {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    padding: 20px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  .main-hardware .image-container-hardware .image3 {
+    border-style: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0.5rem 2.5rem #e0dedd;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-hardware .image3:hover {
+    transform: scale(1.07);
+    transition: 0.7s;
+    filter: sepia(1);
+  }
+}
+@media screen and (max-width: 500px) {
+  .main-hardware .lista-hardware {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-hardware .lista-hardware .sub-lista3 {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+  }
+  .main-hardware .image-container-hardware {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    padding: 20px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  .main-hardware .image-container-hardware .image3 {
+    border-style: hidden;
+    border-radius: 25px;
+    box-shadow: 0 0.5rem 2.5rem #e0dedd;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-hardware .image3:hover {
+    transform: scale(1.07);
+    transition: 0.7s;
+    filter: sepia(1);
+  }
+}
+.main-contacto {
+  width: 100%;
+  max-width: 1400px;
+  margin: 100px auto;
+}
+.main-contacto h2 {
+  margin-left: 20px;
+}
+.main-contacto .parrafo {
+  padding: 20px;
+}
+.main-contacto .contenedor-form {
+  margin-top: 50px;
+}
+.main-contacto .contenedor-form .input-form {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-contacto .contenedor-form .input-form .inputs {
+  width: 50%;
+}
+
+/* fin seccion4 */
+@media screen and (max-width: 768px) {
+  .main-contacto .contenedor-form {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .main-contacto .contenedor-form .input-form {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .main-contacto .contenedor-form .input-form .inputs {
+    width: 80%;
+  }
+}
+/* FOOTER */
+.footer {
+  background: linear-gradient(to right, black, #434343);
+  margin-top: 300px;
+}
+.footer .contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer .contacto a {
+  font-size: 1.2rem;
+  color: white;
+  margin: 0.3%;
+  text-align: center;
+  text-decoration: none;
+  position: static;
+}
+.footer .parrafo {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}
+.footer .redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer .redes a {
+  color: white;
+  margin: 15px;
+}
+.footer .redes a .iconos {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .footer .contacto {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .redes {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e0dedd;
+}
+
+/*# sourceMappingURL=style.css.map */

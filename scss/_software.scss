@@ -1,0 +1,107 @@
+@import "./variables";
+@import "./mixins";
+
+.main-software {
+  @include mains;
+
+  .lista-software {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+
+    .sub-lista2 {
+      text-decoration: underline;
+      color: $primary-color-1;
+      margin-top: 90px;
+      list-style: none;
+    }
+  }
+  .card-software {
+    background: none;
+    border: 2px solid black;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .card-software:hover {
+    transform: scale(1.02);
+    transition: 0.7s;
+    filter: sepia(1);
+    cursor: pointer;
+  }
+}
+
+/* fin seccion 2 */
+@media screen and (max-width: 768px) {
+  .main-software {
+    .lista-software {
+      text-decoration: underline;
+      color: black;
+      margin-top: 90px;
+      list-style: none;
+
+      .sub-lista2 {
+        text-decoration: underline;
+        color: $primary-color-1;
+        margin-top: 90px;
+        list-style: none;
+      }
+    }
+
+    .image-container-software {
+      @include image-container-tablet;
+
+      .image2 {
+        border-style: hidden;
+        border-radius: 25px;
+        box-shadow: 0 0.5rem 2.5rem $primary-color;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .image2:hover {
+      transform: scale(1.07);
+      transition: 0.7s;
+      filter: sepia(1);
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-software {
+    .lista-software {
+      text-decoration: underline;
+      color: black;
+      margin-top: 90px;
+      list-style: none;
+
+      .sub-lista2 {
+        text-decoration: underline;
+        color: $primary-color-1;
+        margin-top: 90px;
+        list-style: none;
+      }
+    }
+
+    .image-container-software {
+      @include image-container-mobile;
+
+      .image2 {
+        border-style: hidden;
+        border-radius: 25px;
+        box-shadow: 0 0.5rem 2.5rem $primary-color;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .image2:hover {
+      transform: scale(1.07);
+      transition: 0.7s;
+      filter: sepia(1);
+    }
+  }
+}

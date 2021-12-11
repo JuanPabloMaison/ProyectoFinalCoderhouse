@@ -1,0 +1,20 @@
+{
+  "name": "prueba-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "author": "Juan Pablo Maison",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanPabloMaison/ProyectoFinalCoderhouse.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuanPabloMaison/ProyectoFinalCoderhouse/issues"
+  },
+  "homepage": "https://github.com/JuanPabloMaison/ProyectoFinalCoderhouse#readme"
+}

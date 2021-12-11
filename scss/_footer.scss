@@ -1,0 +1,57 @@
+@import "./variables";
+
+/* FOOTER */
+.footer {
+  background: linear-gradient(to right, black, #434343);
+  margin-top: 300px;
+
+  .contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    a {
+      font-size: 1.2rem;
+      color: white;
+      margin: 0.3%;
+      text-align: center;
+      text-decoration: none;
+      position: static;
+    }
+  }
+
+  .parrafo {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+  }
+
+  .redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    a {
+      color: white;
+      margin: 15px;
+
+      .iconos {
+        color: white;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    .contacto {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .redes {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}

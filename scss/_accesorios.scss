@@ -1,0 +1,106 @@
+@import "./variables";
+@import "./mixins";
+
+.main-accesorios {
+  @include mains;
+
+  .lista-accesorios {
+    text-decoration: underline;
+    color: black;
+    margin-top: 90px;
+    list-style: none;
+
+    .sub-lista1 {
+      text-decoration: underline;
+      color: black;
+      margin-top: 90px;
+      list-style: none;
+    }
+  }
+  .card-accesorios {
+    background: none;
+    border: 2px solid black;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .card-accesorios:hover {
+    transform: scale(1.02);
+    transition: 0.7s;
+    filter: sepia(1);
+    cursor: pointer;
+  }
+}
+
+/* fin seccion 1 */
+@media screen and (max-width: 768px) {
+  .main-accesorios {
+    .lista-accesorios {
+      text-decoration: underline;
+      color: black;
+      margin-top: 90px;
+      list-style: none;
+
+      .sub-lista1 {
+        text-decoration: underline;
+        color: black;
+        margin-top: 90px;
+        list-style: none;
+      }
+    }
+
+    .image-container-accesorios {
+      @include image-container-tablet;
+
+      .image1 {
+        border-style: hidden;
+        border-radius: 25px;
+        box-shadow: 0 0.5rem 2.5rem goldenrod;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .image1:hover {
+      transform: scale(1.07);
+      transition: 0.7s;
+      filter: sepia(1);
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-accesorios {
+    .lista-accesorios {
+      text-decoration: underline;
+      color: black;
+      margin-top: 90px;
+      list-style: none;
+
+      .sub-lista1 {
+        text-decoration: underline;
+        color: black;
+        margin-top: 90px;
+        list-style: none;
+      }
+    }
+
+    .image-container-accesorios {
+      @include image-container-mobile;
+
+      .image1 {
+        border-style: hidden;
+        border-radius: 25px;
+        box-shadow: 0 0.5rem 2.5rem goldenrod;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .image1:hover {
+      transform: scale(1.07);
+      transition: 0.7s;
+      filter: sepia(1);
+    }
+  }
+}
