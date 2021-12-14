@@ -165,29 +165,29 @@ h1 {
   text-align: left;
 }
 
-.main-software {
+.main-juegos {
   width: 100%;
   max-width: 1400px;
   margin: 100px auto;
 }
-.main-software .lista-software {
+.main-juegos .lista-juegos {
   text-decoration: underline;
   color: black;
   margin-top: 90px;
   list-style: none;
 }
-.main-software .lista-software .sub-lista2 {
+.main-juegos .lista-juegos .sub-lista2 {
   text-decoration: underline;
   color: black;
   margin-top: 90px;
   list-style: none;
 }
-.main-software .card-software {
+.main-juegos .card-juegos {
   background: none;
   border: 2px solid black;
   border-radius: 0px 0px 10px 10px;
 }
-.main-software .card-software:hover {
+.main-juegos .card-juegos:hover {
   transform: scale(1.02);
   transition: 0.7s;
   filter: sepia(1);
@@ -196,19 +196,19 @@ h1 {
 
 /* fin seccion 2 */
 @media screen and (max-width: 768px) {
-  .main-software .lista-software {
+  .main-juegos .lista-juegos {
     text-decoration: underline;
     color: black;
     margin-top: 90px;
     list-style: none;
   }
-  .main-software .lista-software .sub-lista2 {
+  .main-juegos .lista-juegos .sub-lista2 {
     text-decoration: underline;
     color: black;
     margin-top: 90px;
     list-style: none;
   }
-  .main-software .image-container-software {
+  .main-juegos .image-container-juegos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
@@ -216,7 +216,7 @@ h1 {
     grid-gap: 10px;
     justify-content: center;
   }
-  .main-software .image-container-software .image2 {
+  .main-juegos .image-container-juegos .image2 {
     border-style: hidden;
     border-radius: 25px;
     box-shadow: 0 0.5rem 2.5rem #e0dedd;
@@ -224,26 +224,26 @@ h1 {
     height: 100%;
     object-fit: cover;
   }
-  .main-software .image2:hover {
+  .main-juegos .image2:hover {
     transform: scale(1.07);
     transition: 0.7s;
     filter: sepia(1);
   }
 }
 @media screen and (max-width: 500px) {
-  .main-software .lista-software {
+  .main-juegos .lista-juegos {
     text-decoration: underline;
     color: black;
     margin-top: 90px;
     list-style: none;
   }
-  .main-software .lista-software .sub-lista2 {
+  .main-juegos .lista-juegos .sub-lista2 {
     text-decoration: underline;
     color: black;
     margin-top: 90px;
     list-style: none;
   }
-  .main-software .image-container-software {
+  .main-juegos .image-container-juegos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
@@ -251,7 +251,7 @@ h1 {
     grid-gap: 10px;
     justify-content: center;
   }
-  .main-software .image-container-software .image2 {
+  .main-juegos .image-container-juegos .image2 {
     border-style: hidden;
     border-radius: 25px;
     box-shadow: 0 0.5rem 2.5rem #e0dedd;
@@ -259,7 +259,7 @@ h1 {
     height: 100%;
     object-fit: cover;
   }
-  .main-software .image2:hover {
+  .main-juegos .image2:hover {
     transform: scale(1.07);
     transition: 0.7s;
     filter: sepia(1);
@@ -301,13 +301,13 @@ h1 {
 
 /* fin seccion 2 */
 @media screen and (max-width: 768px) {
-  .main-hardware .lista-software {
+  .main-hardware .lista-hardware {
     text-decoration: underline;
     color: black;
     margin-top: 90px;
     list-style: none;
   }
-  .main-hardware .lista-software .sub-lista3 {
+  .main-hardware .lista-hardware .sub-lista3 {
     text-decoration: underline;
     color: black;
     margin-top: 90px;
